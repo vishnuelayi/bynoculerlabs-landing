@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon - Bynoculer Labs</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #13aa52;
+            --secondary-color: #11b57c;
+            --dark-color: #0d3b2e;
+            --light-color: #f5f7f9;
+            --text-color: #1f2937;
+            --accent-color: #ff6b35;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: var(--light-color);
+            color: var(--text-color);
+        }
+
+        .coming-soon-container {
+            text-align: center;
+        }
+
+        .svg-container {
+            max-width: 400px;
+            margin: 0 auto 2rem;
+        }
+
+        .svg-container img {
+            width: 100%;
+            height: auto;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            color: var(--text-color);
+        }
+
+        button {
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 0.8rem 2rem;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background: var(--accent-color);
+        }
+    </style>
+</head>
+<body>
+    <div class="coming-soon-container">
+        <div class="svg-container">
+            <img src="undraw_proud-coder_9prj.svg" alt="Coming Soon">
+        </div>
+        <h1>Coming Soon!</h1>
+        <p>We’re working hard to launch Bynoculer. Stay tuned for updates!</p>
+        <button onclick="window.location.href='index.html'">Back to Home</button>
+    </div>
+</body>
+</html>
