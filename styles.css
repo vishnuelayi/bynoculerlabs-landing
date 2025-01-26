@@ -129,3 +129,15 @@ footer {
   padding: 1.5rem;
   text-align: center;
 }
+
+@media (max-width: 600px) {
+  .navbutton {
+    display: none;
+  }
+  .aihero{
+    flex-direction: column;
+  }
+  footer{
+    flex-direction: column;
+  }
+}
